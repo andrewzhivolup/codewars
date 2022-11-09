@@ -13,7 +13,7 @@ describe("Простое ли число?", () => {
   test("Нуль", () => {
     expect(isPrime(0)).toBe(false);
   });
-  test("Отhицательное число", () => {
+  test("Отрицательное число", () => {
     expect(isPrime(-1)).toBe(false);
   });
 });
