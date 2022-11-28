@@ -60,6 +60,7 @@ module.exports = {
   minus,
   times,
   dividedBy,
+  zero,
   one,
   two,
   three,

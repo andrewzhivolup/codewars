@@ -1,4 +1,5 @@
 const {
+  zero,
   one,
   two,
   three,
@@ -25,6 +26,6 @@ describe("Calculating with Functions", () => {
     expect(five(times(six()))).toBe(30);
   });
   test("8/7=1", () => {
-    expect(eight(dividedBy(seven()))).toBe(30);
+    expect(eight(dividedBy(seven()))).toBe(1);
   });
 });
