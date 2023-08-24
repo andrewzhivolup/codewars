@@ -31,7 +31,5 @@ function getPINs(observed) {
     return generateVariations('', observed.split(''));
 }
 
-console.log(getPINs('11'))
-
 module.exports = getPINs;
 
